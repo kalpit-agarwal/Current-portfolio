@@ -21,11 +21,11 @@ function About() {
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
               Hello! My name is <strong>Kalpit agarwal</strong>. I'm originally
-              Udaipur, rajasthan but i am currently pursuing my bachelor's
-              degree from LNMIIT, Jaipur . During my time here, I gained
-              valuable experience through various workshops and interactions
-              with different personalities, which greatly enhanced my work
-              ethic, communication skills, and adaptability.
+              from Udaipur, rajasthan but i am currently pursuing my bachelor's
+              degree from LNMIIT, Jaipur. During my time here, I gained valuable
+              experience through various workshops and interactions with
+              different personalities, which greatly enhanced my work ethic,
+              communication skills, and adaptability.
             </ScrollAnimation>
 
             <br />
