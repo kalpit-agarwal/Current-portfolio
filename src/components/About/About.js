@@ -15,42 +15,32 @@ function About() {
       <div className="Container">
         <div className="SectionTitle">About Me</div>
         <div className="BigCard">
-          <ScrollAnimation animateIn="fadeInLeft">
+          <ScrollAnimation animateIn="fadeInRight">
             <Image src="/aboutphoto.jpg" alt="man-svgrepo" />
           </ScrollAnimation>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
-              Hello! My name is <strong>Kalpit agarwal</strong>. I'm originally
-              from Udaipur, rajasthan but i am currently pursuing my bachelor's
-              degree from LNMIIT, Jaipur. During my time here, I gained valuable
-              experience through various workshops and interactions with
-              different personalities, which greatly enhanced my work ethic,
-              communication skills, and adaptability.
+              Hello! My name is <strong>Kalpit agarwal</strong>.I am originally
+              from Udaipur, Rajasthan, but I am currently pursuing my bachelor's
+              degree at LNMIIT, Jaipur. During my time here, I have gained
+              valuable experience through various workshops and interactions
+              with different personalities. These experiences have greatly
+              enhanced my work ethic, communication skills, and adaptability.
             </ScrollAnimation>
 
             <br />
             <br />
 
             <ScrollAnimation animateIn="fadeInLeft">
-              My journey into the world of technology began with a strong
-              passion for problem-solving, I love solving competitive coding
-              problems for fun. Despite its challenges, I remained determined
-              and forged lasting friendships that supported me throughout this
-              interesting journey. Throughout my studies at LNMIIT, I had the
-              opportunity to engage in fascinating projects. Notably, I
-              contributed to the development of the super coach and BBI api in
-              my SDE intership time at Octal IT solution
-            </ScrollAnimation>
-
-            <br />
-            <br />
-
-            <ScrollAnimation animateIn="fadeInLeft">
-              Working collaboratively within a team towards a shared objective
-              has been an incredibly rewarding and unique experience for me. I
-              am eager to continue exploring exciting projects in the future,
-              with a particular interest in web development and cross-platform
-              mobile development.
+              Exploring and working on diverse projects has been an incredibly
+              rewarding and unique experience for me. I am eager to continue
+              delving into exciting future projects, particularly in the fields
+              of web development and cross-platform mobile development.
+              Additionally, I am currently striving to understand the world of
+              AI and machine learning, which further enhances my enthusiasm for
+              technology. These areas captivate me, and I am committed to
+              continually enhancing my skills and knowledge to stay at the
+              forefront of innovation.
               <br />
               <br />
               Here are my competitive coding profiles:
@@ -87,6 +77,49 @@ function About() {
                 </ScrollAnimation>
               ))}
             </Technologies>
+
+            <br />
+            <br />
+            <ScrollAnimation animateIn="fadeInLeft">
+              <strong style={{ fontSize: "30px" }}>Work Experience </strong>
+              <br />
+              <strong>Octal IT Solution</strong> -{" "}
+              <i>Software Development Intern</i>
+              <br />
+              <br />
+              I am currently working on the development of the Super Coach and
+              BBI API within the MERN stack team. I have successfully converted
+              the entire codebase from the designer team into JSX and React
+              components. Additionally, I created APIs for coach and athlete
+              logins and utilized React Hook Form to develop a dynamic form for
+              the Super Coach project.
+              <br />
+            </ScrollAnimation>
+
+            <br />
+            <br />
+            <ScrollAnimation animateIn="fadeInLeft">
+              <strong style={{ fontSize: "30px" }}>Education</strong>
+              <br />
+              <strong>The LNM Institute of Information Technology </strong>{" "}
+              <i> 2021 – 2025</i>
+              <br />
+              B.Tech. in ECE (CGPA - 7.85)
+              <br />
+              <br />
+              <strong>MDS Public School Pratap Nagar, Udaipur, RAJ</strong>{" "}
+              <i> 2021</i>
+              <br />
+              12th (CBSE) (95.2%)
+              <br />
+              <br />
+              <strong>ST. Gregorios Sr. Sec. School, Udaipur, RAJ</strong>{" "}
+              <i> 2019</i>
+              <br />
+              10th (CBSE) (94.4%)
+              <br />
+              <br />
+            </ScrollAnimation>
           </div>
         </div>
       </div>
