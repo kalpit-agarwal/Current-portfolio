@@ -138,10 +138,10 @@ export const stackList = [
   //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
   //   name: "Java",
   // },
-  // {
-  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
-  //   name: "MySQL",
-  // },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
+    name: "MySQL",
+  },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg",
     name: "Bootstrap",
@@ -154,10 +154,10 @@ export const stackList = [
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
     name: "Figma",
   },
-  // {
-  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
-  //   name: "TailwindCSS",
-  // },
+  {
+    img: "https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp",
+    name: "TailwindCSS",
+  },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
     name: "VS Code",

@@ -20,7 +20,7 @@ function About() {
           </ScrollAnimation>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
-              Hello! My name is <strong>Kalpit agarwal</strong>.I am originally
+              Hello! My name is <strong>Kalpit agarwal</strong>. I am originally
               from Udaipur, Rajasthan, but I am currently pursuing my bachelor's
               degree at LNMIIT, Jaipur. During my time here, I have gained
               valuable experience through various workshops and interactions
@@ -63,7 +63,9 @@ function About() {
                 Leetcode
               </a>
               <div className="tagline2">
-                I have become confident using the following technologies:
+                <strong>
+                  I have become confident using the following technologies:
+                </strong>
               </div>
             </ScrollAnimation>
 
