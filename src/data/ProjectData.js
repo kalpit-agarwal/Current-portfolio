@@ -1,6 +1,24 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
+    img: "/wittywrites.png",
+    title: "WittyWrites",
+    description:
+      "Developed a real-time blog website with features including commenting, liking, following, unfollowing, and pagination, all integrated with Socket.IO . Implemented pagination for blog display, optimized for SEO, and improved loading states and button functionality.",
+    tech_stack: [
+      "NextJS",
+      "MongoDB",
+      "ReactContext",
+      "Socket.io",
+      "ChakraUI",
+      "Cloudinary",
+      "ExpressJs",
+    ],
+    github_url: "https://github.com/kalpit-agarwal/WittyWrites",
+    demo_url: "https://wittywrites.netlify.app/",
+  },
+
+  {
     img: "/savorify.png",
     title: "Savorify",
     description:
@@ -90,10 +108,10 @@ export const stackList = [
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
     name: "ReactJS",
   },
-  // {
-  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
-  //   name: "NextJs",
-  // },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
+    name: "NextJs",
+  },
   // {
   //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
   //   name: "Typescript",
